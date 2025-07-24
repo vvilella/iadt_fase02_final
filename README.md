@@ -35,6 +35,7 @@ pip install -r requirements.txt
 3. **Exibição dos Resultados**:
    - O melhor portfólio de cada geração será exibido com os **pesos** das ações e o **índice de Sharpe**.
    - O gráfico da evolução do índice de Sharpe ao longo das gerações será mostrado no final.
+   - Ao final, também é apresentado um **gráfico de barras** com a distribuição dos pesos do melhor portfólio, facilitando a visualização da alocação de cada ação.
 
 ### Estrutura do Código
 
