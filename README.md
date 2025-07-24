@@ -68,3 +68,7 @@ Este portfólio representa a melhor alocação de capital entre as ações anali
 
 Este exercício demonstra como o **algoritmo genético** pode ser utilizado para **otimizar a alocação de um portfólio de ações**, balanceando o **retorno** e o **risco**. A técnica mostrou-se eficaz para balancear o retorno e o risco, com o índice de Sharpe aumentando ao longo das gerações. 
 
+
+## Versão 2 - Comparacao com Markowitz
+
+A versão `Tech_Challenge_Fase02_v2.ipynb` inclui o calculo do portfólio ótimo pelo método de Markowitz e a comparação do índice de Sharpe com o resultado do algoritmo genético.
