@@ -3,13 +3,13 @@
 
 ## Descrição do Exercício
 
-Este exercício tem como objetivo otimizar um **portfólio de ações** utilizando **algoritmos genéticos**. O algoritmo genético será usado para distribuir um **capital limitado** entre várias **ações** de modo a **maximizar o retorno esperado** e **minimizar o risco**. O exercício utiliza o **índice de Sharpe** como métrica para otimizar o equilíbrio entre **risco** e **retorno**.
+Este exercício tem como objetivo otimizar um **portfólio de ações** utilizando **algoritmos genéticos**. O algoritmo genético será usado para distribuir um **capital limitado** entre várias **ações**, buscando **maximizar o retorno esperado** e **minimizar o risco**. Para essa otimização, utilizamos o **índice de Sharpe** como métrica, que ajuda a equilibrar o risco e o retorno.
 
 ## Como Rodar o Exercício
 
 ### Pré-requisitos
 
-1. **Python 3.x**: Certifique-se de que o Python 3 está instalado em seu sistema. 
+1. **Python 3.x**: Verifique se o Python 3 está instalado no seu sistema.
 2. **Instalar Dependências**: Para instalar as dependências do projeto, execute:
 
 ```bash
@@ -21,7 +21,7 @@ pip install -r requirements.txt
      ```bash
      python3 -m venv venv
      source venv/bin/activate  # Para Linux/Mac
-     venv\Scripts\activate     # Para Windows
+     venv\Scriptsctivate     # Para Windows
      ```
 
 ### Executando o Código
@@ -30,7 +30,7 @@ pip install -r requirements.txt
    - O código faz o download dos dados históricos das ações utilizando o pacote `yfinance`.
 
 2. **Rodar o notebook**:
-   - O exercício foi desenvolvido no Jupyter Notebook. Basta rodar o notebook do início ao fim para realizar a otimização do portfólio e ver o desempenho de cada geração.
+   - O exercício foi desenvolvido no Jupyter Notebook. Basta rodar o notebook do começo ao fim para realizar a otimização do portfólio e ver o desempenho de cada geração.
 
 3. **Exibição dos Resultados**:
    - O melhor portfólio de cada geração será exibido com os **pesos** das ações e o **índice de Sharpe**.
@@ -66,9 +66,4 @@ Este portfólio representa a melhor alocação de capital entre as ações anali
 
 ## Conclusão
 
-Este exercício demonstra como o **algoritmo genético** pode ser utilizado para **otimizar a alocação de um portfólio de ações**, balanceando o **retorno** e o **risco**. A técnica mostrou-se eficaz para balancear o retorno e o risco, com o índice de Sharpe aumentando ao longo das gerações. 
-
-
-## Versão 2 - Comparacao com Markowitz
-
-A versão `Tech_Challenge_Fase02_v2.ipynb` inclui o calculo do portfólio ótimo pelo método de Markowitz e a comparação do índice de Sharpe com o resultado do algoritmo genético.
+Este exercício demonstra como o **algoritmo genético** pode ser utilizado para **otimizar a alocação de um portfólio de ações**, balanceando o **retorno** e o **risco**. A técnica mostrou-se eficaz para balancear o retorno e o risco, com o índice de Sharpe aumentando ao longo das gerações.
