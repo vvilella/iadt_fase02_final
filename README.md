@@ -58,11 +58,16 @@ Ao longo das gerações, o **índice de Sharpe** foi aumentando, indicando que o
 
 ## Melhor Portfólio
 
-O **melhor portfólio** da última geração foi o seguinte:
-- **Pesos**: `[0.4214938, 0.06119067, 0.007478, 0.17211524, 0.33772229]`
-- **Índice de Sharpe**: **0.0629**
+Melhor portfólio da última geração:
+AAPL: 0.4077
+MSFT: 0.0067
+TSLA: 0.0135
+AMZN: 0.1716
+GOOGL: 0.4005
 
-Este portfólio representa a melhor alocação de capital entre as ações analisadas, de acordo com o algoritmo genético, e é otimizado para maximizar o retorno ajustado ao risco.
+Índice de Sharpe do melhor portfólio: 0.0635
+
+Nota: Estes valores foram gerados durante uma execução específica do algoritmo genético. Devido à aleatoriedade inerente ao algoritmo genético, os resultados podem variar a cada execução.
 
 ## Conclusão
 
